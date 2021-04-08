@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 400px;
+  width: 70%;
+  margin: 80px auto;
+  padding: 60px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 1px 0 15px gray;
+  background-color: lemonchiffon;
+}
+.container h1 {
+  font-size: 270%;
+  margin-bottom: 40px;
+}
+.container h2 {
+  margin-bottom: 15px;
+}
+.container #inputEmail {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.container #output {
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 110%;
+  font-weight: 600;
+  box-shadow: 2px 2px 15px palevioletred;
+  background-color:lightpink;
+}
