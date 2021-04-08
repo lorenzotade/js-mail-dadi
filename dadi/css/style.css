@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 1px 1px 17px gray;
+  background-color: aquamarine;
+}
+.container h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.container h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.container .game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.container .game .dieBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 20px;
+  background-color: white;
+  box-shadow: 2px 2px 1px black;
+}
+
+.container #output {
+  font-size: 40px;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
